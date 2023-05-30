@@ -26,10 +26,11 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	// Cucumber
-	implementation 'io.cucumber:cucumber-java:7.12.0'
-	testImplementation 'io.cucumber:cucumber-junit-platform-engine:7.12.0'
-	testImplementation 'io.cucumber:cucumber-spring:7.12.0'
+	// Mockito
+	testImplementation 'org.mockito:mockito-core:5.3.1'
+
+	// Embedded MongoDB
+	testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:4.6.1'
 
 
 }
