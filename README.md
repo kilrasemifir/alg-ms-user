@@ -26,3 +26,7 @@ Four use cases are implemented:
 - Read a user
 - Modify a team
 - Read a team
+
+## Documentation
+
+Documentation is available at [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
